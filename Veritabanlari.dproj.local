@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.dfm,C:\ReflexProjesi\ReflexPro\Unit1.dfm=C:\ReflexProjesi\ReflexPro\ReflexProYapi.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.193,C:\Delphi\Veritabanlari\Veritabanlari.dproj=C:\Delphi\Veritabanlari\Generator.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.dfm,C:\ReflexProjesi\ReflexPro\ReflexProYapi.dfm=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.pas,C:\ReflexProjesi\ReflexPro\Unit2.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.678,C:\Delphi\Generator\GeneratorMain.dfm=C:\Delphi\Generator\Main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.414,C:\ReflexProjesi\Generator\GeneratorMain.pas=C:\ReflexProjesi\Generator\ReflexProMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.pas,C:\ReflexProjesi\MainForms\Utilities\M_F_Consts.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.pas,C:\ReflexProjesi\ReflexPro\Unit1.pas=C:\ReflexProjesi\ReflexPro\ReflexProYapi.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.dfm,C:\ReflexProjesi\MainForms\Utilities\M_F_Consts.dfm=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.678,C:\Delphi\Generator\GeneratorMain.pas=C:\Delphi\Generator\Main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.414,C:\ReflexProjesi\Generator\GeneratorMain.dfm=C:\ReflexProjesi\Generator\ReflexProMain.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.pas,C:\ReflexProjesi\ReflexPro\ReflexProYapi.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.dfm,C:\ReflexProjesi\ReflexPro\Unit2.dfm=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.095,C:\ReflexProjesi\Generator\Generator.dproj=C:\ReflexProjesi\Generator\ReflexPro.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

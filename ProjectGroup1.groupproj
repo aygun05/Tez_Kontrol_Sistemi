@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{FF26B097-7386-48BA-8A45-C555935CA4C9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Veritabanlari.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\VeritabanlariTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Veritabanlari">
+        <MSBuild Projects="Veritabanlari.dproj"/>
+    </Target>
+    <Target Name="Veritabanlari:Clean">
+        <MSBuild Projects="Veritabanlari.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Veritabanlari:Make">
+        <MSBuild Projects="Veritabanlari.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VeritabanlariTests">
+        <MSBuild Projects="Test\VeritabanlariTests.dproj"/>
+    </Target>
+    <Target Name="VeritabanlariTests:Clean">
+        <MSBuild Projects="Test\VeritabanlariTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VeritabanlariTests:Make">
+        <MSBuild Projects="Test\VeritabanlariTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Veritabanlari;VeritabanlariTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Veritabanlari:Clean;VeritabanlariTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Veritabanlari:Make;VeritabanlariTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
